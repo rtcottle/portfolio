@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio 1 | Advanced CSS</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Ryan Cottle</h1>
+        <nav class="header-links">
+            <a href='#about'>About Me</a>
+            <a href='#work'>Work</a>
+            <a href='#contact'>Contact Me</a>
+            <!-- add link to resume late on  -->
+            <a href='#resume'>Resume</a>
+        </nav>
+    </header>
+
+    <h3 class="subtitle">Cool Subtitle Here</h3>
+    <div class="flexbox-container">
+<!-- this is the column on the left that labels the sections  -->
+        <aside id="labels">
+            <section id="label-1">
+                <h2>About Me</h2>
+            </section> 
+
+            <section class="work" id="label-2">
+                <h2>Work</h2>
+            </section>
+            
+            <section class="contact" id="label-3">
+                <h2>Contact Me</h2>
+            </section>
+
+        </aside>
+        
+        <!-- this container holds the main sections of the page  -->
+        <main class="container">
+            <div id="about">
+                <h4 class="mobile-labels">About Me</h4>
+                <p>This is my first portfolio! Understanding is limited and time used is excessive. CSS so far has taught me how to change styles of page layout, sizing, font, colors, and more!</p>
+                <p>I have learned basics of HTML as well. Through a lot of trial and error, this initial portfolio has come to life. </p>
+            </div>
+            <!-- TODO: need to have sections of one main, 4 small tiles in two columns. Must make the page responsive and mobile first  -->
+            <div>
+                <section class="card" id="work">
+                    <h4 class="mobile-labels">Work</h4>
+                    <a href="https://rtcottle.github.io/challenge-1-seo/"><img src="./assets/images/seo.png" alt="horiseon seo meeting" /></a>
+                        <div class="img-label">
+                            <h4 class="overlay">SEO</h4>
+                            <p class="sub-overlay">HTML/CSS</p>
+                        </div>
+                </section>
+
+                <section class="card" id="card-2">
+                    <a href="https://rtcottle.github.io/password-generator/"><img src="./assets/images/screenshot-pswd.png" alt="password generator" /></a>
+                        <div class="img-label">
+                            <h4 class="overlay">Password Generator</h4>
+                            <p class="sub-overlay">JavaScript</p>
+                        </div>
+                </section>
+            
+                <section class="card" id="card-3">
+                    <a href="https://rtcottle.github.io/quiz-with-timer/"><img src="./assets/images/screenshot-quiz.png" alt="coding quiz" /></a>
+                        <div class="img-label">
+                            <h4 class="overlay">Coding Quiz</h4>
+                            <p class="sub-overlay">JavaScript/Web APIs</p>
+                        </div>
+                </section>
+            
+                <section class="card" id="card-4">
+                    <a href="https://rtcottle.github.io/daily-planner/"><img src="./assets/images/screenshot-planner.png" alt="daily planer" /></a>
+                        <div class="img-label">
+                            <h4 class="overlay">Daily Planner</h4>
+                            <p class="sub-overlay">Local Storage/Web APIs</p>
+                        </div>
+                </section>
+                
+                <section class="card" id="card-5">
+                    <!-- link to be added when item is complete  -->
+                    <a href="https://rtcottle.github.io/weather/"><img src="./assets/images/screenshot-weather.png" alt="weather app" /></a>
+                        <div class="img-label">
+                            <h4 class="overlay">Weather App</h4>
+                            <p class="sub-overlay">Server-side APIs</p>
+                        </div>
+                </section>     
+
+                <section class="card" id="card-5">
+                    <a href="https://bikeller104.github.io/StockArticleComparison"><img src="./assets/images/screenshot-project1.png" alt="stock price comparison app" /></a>
+                        <div class="img-label">
+                            <h4 class="overlay">Project 1 - Stock Price/Articles </h4>
+                            <p class="sub-overlay">JavaScript/Git/HTML/CSS/APIs</p>
+                        </div>
+                </section>
+                
+                <!-- <section class="card" id="card-6"> -->
+                    <!-- link to be added when item is complete  -->
+                    <!-- <img src="./assets/images/snowy-mountains.jpg" alt="snowy mountains in winter" />
+                        <div class="img-label">
+                            <h4 class="overlay">Pastel Puzzles</h4>
+                            <p class="sub-overlay">MERN stack</p>
+                        </div>
+                </section>      -->
+
+        
+            <footer id="contact">
+                <h4 class="mobile-labels">Contact Me</h4>
+                <!-- add phone link to pop-out and call phone number  -->
+                <span class="phone"><a href"tel:555-555-5555">555-555-5555</a></span>
+                <!-- add link to send email in default email system  -->
+                <span class="email"><a href="mailto:email@email.com?subject=Protfolio 1">Email</a></span>
+                <!-- open new tab in github repo  -->
+                <span class="github"><a href="https://github.com/rtcottle" target="_blank">Github</a></span>
+                <!-- open new tab for linkedin account  -->
+                <span class="linkedin"><a href="https://www.linkedin.com/in/ryan-cottle/" target="_blank">LinkedIn</a></span>
+            </footer>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>

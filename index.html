@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Ryan Cottle | Portfolio</title>
 </head>
@@ -23,7 +24,7 @@
     </header>
 
     <h3 class="subtitle">Aspiring Web Developer</h3>
-    <div class="flexbox-container">
+    <!-- <div class="flexbox-container"> -->
 <!-- this is the column on the left that labels the sections  -->
         <!-- <aside id="labels">
             <section id="label-1">
@@ -41,14 +42,19 @@
         </aside> -->
         
         <!-- this container holds the main sections of the page  -->
-        <main class="container">
-            <div id="about">
-                <h4 class="mobile-labels">About Me</h4>
-                <p>I've just started my web development career with a coding bootcamp from the <b>University of Utah</b>. I began in September 2022 and finish in March 2023. So far, I have completed a series of projects individually and two in teams. </p>
-                <p>I have experience in <i>HTML, CSS, JavaScript and SQL</i> languages. Tools I've used are <i>Express, Node, NPM, Sequelize, Handlebars, Bootstrap/Bulma/Tailwindcss, Jquery,</i> and more. </p>
-            </div>
+        <main>
+            <section id="about" class="container">
+                <div class="row">
+                    <aside class="col-1 order-first align-self-center border-end border-4 border-$green-700">About Me</aside>
+                    <!-- <h4 class="mobile-labels">About Me</h4> -->
+                    <div class="col-11">
+                        <p class="end personal-description">I've just started my web development career with a coding bootcamp from the <b>University of Utah</b>. I began in September 2022 and finish in March 2023. So far, I have completed a series of projects individually and two in teams. </p>
+                        <p class="end personal-description">I have experience in <i>HTML, CSS, JavaScript and SQL</i> languages. Tools I've used are <i>Express, Node, NPM, Sequelize, Handlebars, Bootstrap/Bulma/Tailwindcss, Jquery,</i> and more. </p>
+                    </div>
+                </div>
+            </section>
             <!-- TODO: need to have sections of one main, 4 small tiles in two columns. Must make the page responsive and mobile first  -->
-            <div>
+            <div class="container">
                 <section class="card" id="work">
                     <h4 class="mobile-labels">Work</h4>
                     <a href="https://rtcottle.github.io/challenge-1-seo/"><img src="./assets/images/seo.png" alt="horiseon seo meeting" /></a>
@@ -109,7 +115,7 @@
                 </section>      -->
 
         
-            <footer id="contact">
+            <footer id="contact" class="container">
                 <h4 class="mobile-labels">Contact Me</h4>
                 <!-- add phone link to pop-out and call phone number  -->
                 <span class="phone"><a href"tel:555-555-5555">555-555-5555</a></span>
@@ -123,6 +129,6 @@
 
             </div>
         </main>
-    </div>
+    <!-- </div> -->
 </body>
 </html>

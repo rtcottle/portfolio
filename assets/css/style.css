@@ -57,9 +57,8 @@ a:active {
 /* this impacts the section bar on the left-hand side  */
 aside {
     display: flex;
+    order: 1;
     align-items: end;
-    flex-direction: column;
-    /* justify-content: space-between; */
     padding: 10px;
     text-align: end;
 }
@@ -124,6 +123,15 @@ footer span a {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.personal-description {
+    order: 2;
+}
+
+.border-color {
+    border-color: var(--light-blue);
 }
 
 /* this is the title labeled "Cool Subtitle here"  */

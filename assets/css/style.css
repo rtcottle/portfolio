@@ -28,8 +28,8 @@ h1 {
     margin: 10px 5px 10px 0px;
     background-color: var(--light-blue);
     color: var(--grey);
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 /* sets nav bar positioning  */
@@ -200,14 +200,14 @@ header nav .header-links {
     Height: 5rem;
 }
 
-#card-2,
+/* #card-2,
 #card-3,
 #card-4,
 #card-5 {
     position: relative;
     width: 42%;
     min-width: 410px;
-}
+} */
 
 /* defines "work" label  */
 #label-2 {

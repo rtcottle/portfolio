@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a brief overview of my web development projects
+This is a brief overview of my web development projects.
 
 ## Table of Contents
 
@@ -14,7 +14,6 @@ This is a brief overview of my web development projects
   - [Credits](#credits)
   - [License](#license)
   - [Features](#features)
-  - [How to Contribute](#how-to-contribute)
   - [Tests](#tests)
   - [Questions](#questions)
 
@@ -28,7 +27,9 @@ Showcase my work in coding.
 
 ## Credits
 
+This Portfolio uses:
 
+- Bootstrap css framework - https://getbootstrap.com/
 
 ## License
 
@@ -36,15 +37,11 @@ This project is under the [![License: MIT](https://img.shields.io/badge/License-
 
 ## Features
 
-
-
-## How to Contribute
-
-
+Each picture is a link for the working application.
 
 ## Tests
 
-
+Click on the links to see the things I've worked on.
 
 ## Questions
 

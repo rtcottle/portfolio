@@ -1,14 +1,14 @@
 :root {
-    --grey: rgb(70, 70, 70);
-    --blue: rgb(0, 101, 173);
-    --light-blue: rgba(92, 250, 250, 0.827);
+    --brown: rgb(107, 55, 0);
+    --black: rgb(51, 51, 51);
+    --green: rgb(86, 137, 99);
     --white: rgba(255, 255, 255, 0.877);
-    --vertical-bar: border-right: var(--blue) solid 2px;
+    --vertical-bar: border-right: var(--black) solid 2px;
 }
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--blue);
+    color: var(--black);
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 
 /* sets information about header and nav bar */
 header {
-    background-color: var(--grey);
+    background-color: var(--brown);
     display: flex;
     width: 100%
 }
@@ -26,8 +26,8 @@ header {
 h1 {
     padding: 10px 5px 10px 50px;
     margin: 10px 5px 10px 0px;
-    background-color: var(--light-blue);
-    color: var(--grey);
+    background-color: var(--green);
+    color: var(--white);
     min-width: 300px;
     max-width: 300px;
 }
@@ -41,17 +41,17 @@ nav {
 
 /* defines anchors in nav bar  */
 a {
-    color: var(--light-blue);
+    color: var(--white);
     text-underline-offset: 0.25rem;
     text-decoration-thickness: 3px;
 }
 
 a:hover {
-    color: var(--white);
+    color: var(--green);
 }
 
 a:active {
-    color: var(--blue);
+    color: var(--black);
 }
 
 /* this impacts the section bar on the left-hand side  */
@@ -65,7 +65,7 @@ aside {
 
 /* adds borders to the labels on the left  */
 aside section {
-    border-right: 4px solid var(--blue);
+    border-right: 4px solid var(--black);
     padding: 4px;
 }
 
@@ -74,7 +74,7 @@ img {
     width: 100%;
     height: 100%;
     opacity: 70%;
-    border: 5px solid var(--light-blue);
+    border: 5px solid var(--green);
 }
 
 img:hover {
@@ -104,7 +104,7 @@ nav a {
 }
 
 footer span a {
-    color: var(--blue);
+    color: var(--black);
 }
 
 .mobile-labels {
@@ -131,7 +131,7 @@ footer span a {
 }
 
 .border-color {
-    border-color: var(--light-blue);
+    border-color: var(--green);
 }
 
 /* this is the title labeled "Cool Subtitle here"  */
@@ -140,7 +140,8 @@ footer span a {
     font-size: 150%;
     margin: 0;
     padding: 2rem;
-    background-color: var(--light-blue);
+    background-color: var(--green);
+    color: var(--white);
     /* background-image: url('./assets/images/pano.jpeg'); */
 }
 
@@ -159,24 +160,23 @@ footer span a {
     position: absolute;
     bottom: 24px;
     left: 5px;
-    background-color: var(--light-blue);
+    background-color: var(--green);
     width: 20rem;
     padding: 10px;
-    color: var(--grey);
 }
 
 /* this is the text overlaying the images  */
 .overlay {
     font-size: 180%;
     margin: -4px;
-    color: var(--grey);
+    color: var(--white);
     padding: 0 0 0 1rem;
     opacity: 70%;
 }
 
 /* this is the sub text in the overlay  */
 .sub-overlay {
-    color: var(--grey);
+    color: var(--white);
     padding: 0 0 0 1rem;
 }
 
